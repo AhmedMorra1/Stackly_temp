@@ -1,0 +1,231 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="app.stackly.stackly"
+4    android:versionCode="9"
+5    android:versionName="1.0.8" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[:firebase_analytics] /Users/ahmedmorra/StudioProjects/stackly/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:7:5-79
+12-->[:firebase_analytics] /Users/ahmedmorra/StudioProjects/stackly/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[:firebase_analytics] /Users/ahmedmorra/StudioProjects/stackly/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:9:5-68
+13-->[:firebase_analytics] /Users/ahmedmorra/StudioProjects/stackly/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:9:22-65
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:7:5-81
+14-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:7:22-78
+15    <uses-permission android:name="android.permission.VIBRATE" />
+15-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:8:5-66
+15-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:8:22-63
+16    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+16-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:9:5-81
+16-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:9:22-78
+17    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+17-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:10:5-79
+17-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:10:22-76
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+18-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/7f76d9c9603f5f5c54251ad07a4d5d56/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/7f76d9c9603f5f5c54251ad07a4d5d56/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:26:22-107
+19    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+19-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/b87ee6138d9a16505fa287f68d56a584/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+19-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/b87ee6138d9a16505fa287f68d56a584/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+20
+21    <application
+21-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:4:5-45:19
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.6.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/8ec5a4192b12a309556d408337153575/core-1.6.0/AndroidManifest.xml:24:18-86
+23        android:icon="@mipmap/ic_launcher"
+23-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:6:9-43
+24        android:label="Stackly" >
+24-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:5:9-32
+25        <activity
+25-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:7:9-39:20
+26            android:name="app.stackly.stackly.MainActivity"
+26-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:8:13-41
+27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+27-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:12:13-163
+28            android:exported="true"
+28-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:9:13-36
+29            android:hardwareAccelerated="true"
+29-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:13:13-47
+30            android:launchMode="singleTop"
+30-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:10:13-43
+31            android:showWhenLocked="true"
+31-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:15:13-42
+32            android:theme="@style/LaunchTheme"
+32-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:11:13-47
+33            android:turnScreenOn="true"
+33-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:16:13-40
+34            android:windowSoftInputMode="adjustResize" >
+34-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:14:13-55
+35
+36            <!--
+37                 Specifies an Android theme to apply to this Activity as soon as
+38                 the Android process has started. This theme is visible to the user
+39                 while the Flutter UI initializes. After that, this theme continues
+40                 to determine the Window background behind the Flutter UI.
+41            -->
+42            <meta-data
+42-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:22:13-25:19
+43                android:name="io.flutter.embedding.android.NormalTheme"
+43-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:23:17-72
+44                android:resource="@style/NormalTheme" />
+44-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:24:17-54
+45            <!--
+46                 Displays an Android View that continues showing the launch screen
+47                 Drawable until Flutter paints its first frame, then this splash
+48                 screen fades out. A splash screen is useful to avoid any visual
+49                 gap between the end of Android's launch screen and the painting of
+50                 Flutter's first frame.
+51            -->
+52            <meta-data
+52-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:31:13-34:19
+53                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+53-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:32:17-81
+54                android:resource="@drawable/launch_background" />
+54-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:33:17-63
+55
+56            <intent-filter>
+56-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:35:13-38:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:36:17-68
+57-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:36:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:37:17-76
+59-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:37:27-74
+60            </intent-filter>
+61        </activity>
+62        <!--
+63             Don't delete the meta-data below.
+64             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+65        -->
+66        <meta-data
+66-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:42:9-44:33
+67            android:name="flutterEmbedding"
+67-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:43:13-44
+68            android:value="2" />
+68-->/Users/ahmedmorra/StudioProjects/stackly/android/app/src/main/AndroidManifest.xml:44:13-30
+69
+70        <service
+70-->[:firebase_analytics] /Users/ahmedmorra/StudioProjects/stackly/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:12:9-16:19
+71            android:name="com.google.firebase.components.ComponentDiscoveryService"
+71-->[:firebase_analytics] /Users/ahmedmorra/StudioProjects/stackly/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:12:18-89
+72            android:directBootAware="true"
+72-->[com.google.firebase:firebase-common:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+73            android:exported="false" >
+73-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/9e738151abdf33b4f102becf9a6bad6e/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:29:13-37
+74            <meta-data
+74-->[:firebase_analytics] /Users/ahmedmorra/StudioProjects/stackly/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:13:13-15:85
+75                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
+75-->[:firebase_analytics] /Users/ahmedmorra/StudioProjects/stackly/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:14:17-127
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[:firebase_analytics] /Users/ahmedmorra/StudioProjects/stackly/build/firebase_analytics/intermediates/library_manifest/release/AndroidManifest.xml:15:17-82
+77            <meta-data
+77-->[:firebase_core] /Users/ahmedmorra/StudioProjects/stackly/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:9:13-11:85
+78                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+78-->[:firebase_core] /Users/ahmedmorra/StudioProjects/stackly/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:10:17-124
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[:firebase_core] /Users/ahmedmorra/StudioProjects/stackly/build/firebase_core/intermediates/library_manifest/release/AndroidManifest.xml:11:17-82
+80            <meta-data
+80-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/9e738151abdf33b4f102becf9a6bad6e/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:30:13-32:85
+81                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+81-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/9e738151abdf33b4f102becf9a6bad6e/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:31:17-139
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.android.gms:play-services-measurement-api:20.0.2] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/9e738151abdf33b4f102becf9a6bad6e/jetified-play-services-measurement-api-20.0.2/AndroidManifest.xml:32:17-82
+83            <meta-data
+83-->[com.google.firebase:firebase-installations:17.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2b663374f2a3beef67e4fc09532fc190/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+84                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+84-->[com.google.firebase:firebase-installations:17.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2b663374f2a3beef67e4fc09532fc190/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-installations:17.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/2b663374f2a3beef67e4fc09532fc190/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+86        </service>
+87
+88        <receiver
+88-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:13:9-15:40
+89            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+89-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:14:13-97
+90            android:exported="false" />
+90-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+91        <receiver
+91-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:16:9-25:20
+92            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+92-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:17:13-101
+93            android:exported="false" >
+93-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:18:13-37
+94            <intent-filter>
+94-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:19:13-24:29
+95                <action android:name="android.intent.action.BOOT_COMPLETED" />
+95-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:20:17-79
+95-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:20:25-76
+96                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+96-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:21:17-84
+96-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:21:25-81
+97                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+97-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:22:17-82
+97-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:22:25-79
+98                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+98-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:23:17-82
+98-->[:flutter_local_notifications] /Users/ahmedmorra/StudioProjects/stackly/build/flutter_local_notifications/intermediates/library_manifest/release/AndroidManifest.xml:23:25-79
+99            </intent-filter>
+100        </receiver>
+101
+102        <provider
+102-->[com.google.firebase:firebase-common:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+103            android:name="com.google.firebase.provider.FirebaseInitProvider"
+103-->[com.google.firebase:firebase-common:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+104            android:authorities="app.stackly.stackly.firebaseinitprovider"
+104-->[com.google.firebase:firebase-common:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+105            android:directBootAware="true"
+105-->[com.google.firebase:firebase-common:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+106            android:exported="false"
+106-->[com.google.firebase:firebase-common:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+107            android:initOrder="100" />
+107-->[com.google.firebase:firebase-common:20.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/e8c12af64c0d197211b7d090cb61cdf8/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+108
+109        <receiver
+109-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/7f76d9c9603f5f5c54251ad07a4d5d56/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:29:9-33:20
+110            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+110-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/7f76d9c9603f5f5c54251ad07a4d5d56/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:30:13-85
+111            android:enabled="true"
+111-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/7f76d9c9603f5f5c54251ad07a4d5d56/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:31:13-35
+112            android:exported="false" >
+112-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/7f76d9c9603f5f5c54251ad07a4d5d56/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:32:13-37
+113        </receiver>
+114
+115        <service
+115-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/7f76d9c9603f5f5c54251ad07a4d5d56/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:35:9-38:40
+116            android:name="com.google.android.gms.measurement.AppMeasurementService"
+116-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/7f76d9c9603f5f5c54251ad07a4d5d56/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:36:13-84
+117            android:enabled="true"
+117-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/7f76d9c9603f5f5c54251ad07a4d5d56/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:37:13-35
+118            android:exported="false" />
+118-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/7f76d9c9603f5f5c54251ad07a4d5d56/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:38:13-37
+119        <service
+119-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/7f76d9c9603f5f5c54251ad07a4d5d56/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:39:9-43:72
+120            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+120-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/7f76d9c9603f5f5c54251ad07a4d5d56/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:40:13-87
+121            android:enabled="true"
+121-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/7f76d9c9603f5f5c54251ad07a4d5d56/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:41:13-35
+122            android:exported="false"
+122-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/7f76d9c9603f5f5c54251ad07a4d5d56/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:42:13-37
+123            android:permission="android.permission.BIND_JOB_SERVICE" />
+123-->[com.google.android.gms:play-services-measurement:20.0.2] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/7f76d9c9603f5f5c54251ad07a4d5d56/jetified-play-services-measurement-20.0.2/AndroidManifest.xml:43:13-69
+124
+125        <meta-data
+125-->[com.google.android.gms:play-services-basement:18.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/6f55727569cdc4f2e92c738b6d0b61e3/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+126            android:name="com.google.android.gms.version"
+126-->[com.google.android.gms:play-services-basement:18.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/6f55727569cdc4f2e92c738b6d0b61e3/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+127            android:value="@integer/google_play_services_version" />
+127-->[com.google.android.gms:play-services-basement:18.0.0] /Users/ahmedmorra/.gradle/caches/transforms-2/files-2.1/6f55727569cdc4f2e92c738b6d0b61e3/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+128    </application>
+129
+130</manifest>

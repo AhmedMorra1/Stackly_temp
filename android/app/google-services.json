@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "951430827755",
+    "project_id": "stackly-a12ba",
+    "storage_bucket": "stackly-a12ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951430827755:android:178cde4a4bf65d58e0f8ae",
+        "android_client_info": {
+          "package_name": "app.stackly.stackly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951430827755-rbm8m1mnc7aqdnnh869n6cbd8dacs8sc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.stackly.stackly",
+            "certificate_hash": "04f82f5c5b9724cb05bcc9ea05a3089a51b578ee"
+          }
+        },
+        {
+          "client_id": "951430827755-eh6k4c5jnlqh16krr2tfsq6rluh4qlsc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBck-96gE5oKgmmMdY-EFAGpDaVP2UzWgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951430827755-eh6k4c5jnlqh16krr2tfsq6rluh4qlsc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
